@@ -52,3 +52,5 @@ def project_3d_coordinates(coordinates):
 
 def rotate_and_project(coordinates, rot_x, rot_y, rot_z):
     return project_3d_coordinates(rotate_coordinates(coordinates, rot_x, rot_y, rot_z))
+
+print(rotate_and_project(coordinates, rot_x, rot_y, rot_z))
